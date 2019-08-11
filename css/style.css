@@ -76,6 +76,7 @@ article.project-thumbnail {
 	margin-bottom: 4em;
 	margin-left: 2em;
 	margin-right: 2em;
+	overflow: hidden;
 }
 
 article.project-thumbnail:hover {
@@ -83,7 +84,6 @@ article.project-thumbnail:hover {
 }
 
 article.project-thumbnail div.project-image {
-	border-radius: 1em;
 	height: 100%;
 	overflow: hidden;
 	background-size: cover;
@@ -124,6 +124,9 @@ article.project-thumbnail div.project-image a div.project-title h2 {
 	font-size: 1.25em;
 	font-weight: bold;
 	width: 100%;
+	margin-left: 1em;
+	margin-right: 1em;
+	line-height: 1.5em;
 }
 
 article.project-thumbnail div.project-image img.project-company {
@@ -234,43 +237,6 @@ img.project-company {
 	background-color: #444 !important;
 }
 
-@media screen and (max-aspect-ratio: 1/1) {
-	.image-gallery {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-	.image-gallery a {
-		min-height: 20vw;
-		min-width: 20vw;
-	}
-
-	.image-gallery a:nth-child(10n+1), .image-gallery a:nth-child(1) {
-		grid-column: unset;
-		grid-row: unset;
-	}
-	
-}
-
-@media screen and (max-aspect-ratio: 2/3) {
-	.image-gallery {
-		grid-template-columns: 1fr;
-		grid-auto-rows: 50vw;
-	}
-
-	.image-gallery a {
-		min-height: 50vw;
-		min-width: 50vw;
-	}
-
-	article.project-thumbnail {
-		width: 90vw;
-		height: 75vw;
-	}
-}
-
-
-
-
 /** LIGHTBOX MARKUP **/
 
 .image-gallery-lightboxes {
@@ -316,3 +282,43 @@ img.project-company {
 	line-height: 1.4em;
 	margin: 0;
 }
+
+
+@media screen and (max-aspect-ratio: 1/1) {
+	.image-gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.image-gallery a {
+		min-height: 20vw;
+		min-width: 20vw;
+	}
+
+	.image-gallery a:nth-child(10n+1), .image-gallery a:nth-child(1) {
+		grid-column: unset;
+		grid-row: unset;
+	}
+	
+}
+
+@media screen and (max-aspect-ratio: 2/3) {
+	.image-gallery {
+		grid-template-columns: 1fr;
+		grid-auto-rows: 50vw;
+	}
+
+	.image-gallery a {
+		min-height: 50vw;
+		min-width: 50vw;
+	}
+
+	article.project-thumbnail {
+		width: 90vw;
+		height: 75vw;
+	}
+	
+	article.project-thumbnail div.project-image a div.project-title h2 {
+		font-size: 7.5vw;
+	}
+}
+
