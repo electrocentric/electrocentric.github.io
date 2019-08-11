@@ -43,10 +43,11 @@ header h1 {
 	transform: translate(-50%, -100%);
 	display: inline-block;
 	font-size: 2em;
-	border: 3px solid;
+	border: 0.1em solid;
 	border-radius: 1em;
 	text-transform: uppercase;
 	padding: 0 .5em;
+	line-height: 1.25em;
 }
 
 footer {
@@ -137,7 +138,7 @@ section.content {
 	max-width: 50em;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 1em;
 }
 
 section.content a {
@@ -148,6 +149,13 @@ section.content a:hover {
 	text-decoration: underline;
 	color: #000;
 } 
+
+.post-content {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* figures */
 figure img {
 	display: block;
@@ -187,7 +195,7 @@ figure.right {
 
 img.project-company {
 	display: block;
-	width: 350px;
+	width: 100%;
 	border-radius: 1em;
 	border: 0.1em solid #999;
 	margin-left: auto;
@@ -252,6 +260,11 @@ img.project-company {
 	.image-gallery a {
 		min-height: 50vw;
 		min-width: 50vw;
+	}
+
+	article.project-thumbnail {
+		width: 90vw;
+		height: 75vw;
 	}
 }
 

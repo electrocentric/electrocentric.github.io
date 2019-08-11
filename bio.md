@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: content-page
 title: About Me
 ---
 {% include image.html url="/assets/bio/chickens-small.jpg" description="chickens pecking" caption="This is “yard cleanup mode,” which is always a hair’s breadth away from “yard destruction mode.”" class="inline left" lightbox_image="/assets/bio/chickens.jpg" lightbox_image_id="chickens" %}
