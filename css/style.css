@@ -279,10 +279,7 @@ img.project-company {
 	height: 100%;
 }
 .lightbox {
-	/** Default lightbox to hidden */
 	display: none;
-
-	/** Position and style */
 	position: fixed;
 	z-index: 999;
 	width: 100%;
@@ -290,7 +287,7 @@ img.project-company {
 	text-align: center;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,1);
+	background: rgba(64,64,64,1);
 }
 
 .lightbox img {
