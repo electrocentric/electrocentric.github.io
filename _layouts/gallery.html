@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% capture gallery_path %}assets/gallery/{{ page.gallery-key }}/photos/{% endcapture %}
+<div class="image-gallery">
+{% for image in site.static_files %}
+    {% if image.path contains gallery_path %}
+		{% assign thumbnail_path = image.path | replace: "photos", "thumbnails" %}
+		{% assign photo_id = image.path | replace: gallery_path, "" | remove: image.extname %}
+		<a href="#{{ photo_id }}" style="background-image: url('{{ thumbnail_path }}')"></a>
+    {% endif %}
+{% endfor %}
+</div>
+<div class="image-gallery-lightboxes">
+{% for image in site.static_files %}
+    {% if image.path contains gallery_path %}
+		{% assign photo_id = image.path | replace: gallery_path, "" | remove: image.extname %}
+		<a class="lightbox" id="{{ photo_id }}" href="#_">
+			<img src="{{ site.baseurl }}{{ image.path }}">
+		</a>
+    {% endif %}
+{% endfor %}
+</div>

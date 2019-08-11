@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="post-content">{{ content }}</div>
+<img src="/assets/companies/{{page.company}}-350.png" class="project-company">
+<div class="project-navigator">
+	{% if page.previous.url %}
+		<article class="project-thumbnail">
+		  
+		  <div class="project-image" style="background-image:url('{{ page.previous.projectimage }}')">
+			<a href="{{ page.previous.url }}">
+				<div class="project-title">
+					<h2>{{ page.previous.title }}</h2>
+				</div>
+				<img src="/assets/companies/{{page.previous.company}}-350.png" class="project-company">
+			</a>
+		  </div>
+		</article>
+	{% else %}
+		<article/>
+  	{% endif %}
+	{% if page.next.url %}
+		<article class="project-thumbnail">
+		  
+		  <div class="project-image" style="background-image:url('{{ page.next.projectimage }}')">
+			<a href="{{ page.next.url }}">
+				<div class="project-title">
+					<h2>{{ page.next.title }}</h2>
+				</div>
+				<img src="/assets/companies/{{page.next.company}}-350.png" class="project-company">
+			</a>
+		  </div>
+		</article>
+	{% else %}
+		<article/>
+	{% endif %}
+</div>

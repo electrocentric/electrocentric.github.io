@@ -1,0 +1,12 @@
+{% if include.lightbox_image and include.lightbox_image_id %}
+<figure class="{{ include.class }}">
+  <a href="#{{include.lightbox_image_id}}"><img src="{{ include.url }}" alt="{{ include.description }}"></a>
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+<a class="lightbox" href="#_" id="{{include.lightbox_image_id}}"><img src="{{include.lightbox_image}}"></a>
+{% else %}
+<figure class="{{ include.class }}">
+  <img src="{{ include.url }}" alt="{{ include.description }}">
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% endif %}
