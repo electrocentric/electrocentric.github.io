@@ -68,10 +68,10 @@ div.project-list {
 
 article.project-thumbnail {
 	flex: 0 0 auto;
-	width: 310px;
-	height: 250px;
-	border: 1px solid #999;
-	border-radius: 10px;
+	width: 20em;
+	height: 17em;
+	border: 0.1em solid #999;
+	border-radius: 1em;
 	margin-bottom: 4em;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -82,7 +82,7 @@ article.project-thumbnail:hover {
 }
 
 article.project-thumbnail div.project-image {
-	border-radius: 10px;
+	border-radius: 1em;
 	height: 100%;
 	overflow: hidden;
 	background-size: cover;
@@ -119,7 +119,7 @@ article.project-thumbnail div.project-image a div.project-title {
 article.project-thumbnail div.project-image a div.project-title h2 {
 	text-align: center;
 	color: rgba(255, 255, 255, 1);
-	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.62);
+	text-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.62);
 	font-size: 1.25em;
 	font-weight: bold;
 	width: 100%;
@@ -129,21 +129,15 @@ article.project-thumbnail div.project-image img.project-company {
 	flex: 0 1 auto;
 	width: 100%;
 	border: none;
-	border-top: 1px solid #999;
+	border-top: 0.1em solid #999;
 	border-radius: unset;
 }
 
 section.content {
-	max-width: 800px;
+	max-width: 50em;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-}
-
-divx.post-content {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 section.content a {
@@ -157,8 +151,8 @@ section.content a:hover {
 /* figures */
 figure img {
 	display: block;
-	border-radius: 10px;
-	border: 1px solid #999;
+	border-radius: 1em;
+	border: 0.1em solid #999;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -194,8 +188,8 @@ figure.right {
 img.project-company {
 	display: block;
 	width: 350px;
-	border-radius: 10px;
-	border: 1px solid #999;
+	border-radius: 1em;
+	border: 0.1em solid #999;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -204,20 +198,20 @@ img.project-company {
 
 .image-gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax( 200px, 1fr ));
-	grid-auto-rows: 200px;
+	grid-template-columns: repeat(auto-fill, minmax( 12em, 1fr ));
+	grid-auto-rows: 12em;
 	grid-gap: 1em;
 }
 
 .image-gallery a {
 	display: block;
-	min-height: 200px;
-	min-width: 200px;
+	min-height: 12em;
+	min-width: 12em;
 	background-size: cover;
 	background-position: center;
 	grid-auto-flow: dense;
-	border-radius: 10px;
-	border: 1px solid #999;
+	border-radius: 1em;
+	border: 0.1em solid #999;
 	overflow: hidden;
 	color: #000;
 }
@@ -232,15 +226,7 @@ img.project-company {
 	background-color: #444 !important;
 }
 
-@media screen and (max-width: 1400px) {
-	.image-galleryz a {
-		min-height: 10vw;	
-		min-width: 10vw;
-	}
-
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-aspect-ratio: 1/1) {
 	.image-gallery {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -257,7 +243,7 @@ img.project-company {
 	
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-aspect-ratio: 2/3) {
 	.image-gallery {
 		grid-template-columns: 1fr;
 		grid-auto-rows: 50vw;
@@ -296,7 +282,7 @@ img.project-company {
 	position: relative;
 	top: 50%;
 	transform: translate(0, -50%);
-	border-radius: 10px;
+	border-radius: 1em;
 }
 
 .lightbox:target {
@@ -311,8 +297,9 @@ img.project-company {
 }
 
 .project-navigator article.project-thumbnail {
-	width: 155px;
-	height: 125px;
-	font-size: .65em;
+	width: 10em;
+	height: 8em;
+	font-size: .5em;
+	line-height: 1.4em;
 	margin: 0;
 }
