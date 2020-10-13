@@ -4,8 +4,9 @@ title: Partner Integration API (2014)
 date: 2014-06-19 19:32:06 -0500
 company: everyscape
 projectimage: /assets/projects/2014-ordersapi.png
+summary: EveryScape created and migrated a partner to a transactional API for order entry, rather than the daily batch process that had existed prior.
 ---
-EveryScape has partnerships with multiple companies for whom some or all of the products are white-labelled for those companies’ use, which is typically exists as a reseller arrangement. The majority of the day to day work at EveryScape is in maintaining and fulfilling these relationships.
+EveryScape had partnerships with multiple companies for whom some or all of the products are white-labelled for those companies’ use, which typically existed as a reseller arrangement. The majority of the day to day work at EveryScape was in maintaining and fulfilling these relationships.
 
 In June of 2014 one of these efforts was migrating a partner to a transactional API for order entry, rather than the daily batch process that had existed prior. Sensitivity on turn around times for production were a major driving force for the change. Now, the partner can see in near real-time the status of an order, and EveryScape is able to start working on an order almost immediately after the deal is signed in the field.
 

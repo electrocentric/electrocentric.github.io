@@ -1,9 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: content-page
 title: About Me
+summary: Just to add a little bit of flavor...
+socialimage: /assets/bio/chickens.jpg
 ---
 {% include image.html url="/assets/bio/chickens-small.jpg" description="chickens pecking" caption="This is “yard cleanup mode,” which is always a hair’s breadth away from “yard destruction mode.”" class="inline left" lightbox_image="/assets/bio/chickens.jpg" lightbox_image_id="chickens" %}
 I was a city boy for most of my adult life, but now I have a 19th-century house in the ‘burbs west of Boston where I have an amazing partner and a house full of pets, including those of the <a target="_blank" href="https://en.wikipedia.org/wiki/Cat" alt="(cat)">feline</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Dog" alt="(dog)">canine</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Fish" alt="(fish)">piscine</a>, and <a target="_blank" href="https://en.wikipedia.org/wiki/Chicken" alt="(chicken)">galline</a> persuasions. We’re still trying to figure out how best to work a horse into the mix.

@@ -4,6 +4,7 @@ title: Blue Note Records Website (1996)
 date: 1996-10-19 18:27:52 -0500
 company: stumpworld
 projectimage: /assets/projects/1996-bluenote.png
+summary: The original website for Blue Note Records, a legendary record label known for publishing and distributing the works of world class blues and jazz artists.
 ---
 
 The original website for Blue Note Records, a legendary record label known for publishing and distributing the works of world class blues and jazz artists.

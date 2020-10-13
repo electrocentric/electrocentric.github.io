@@ -4,6 +4,7 @@ title: 360° Content Platform (2017)
 date: 2017-01-10 19:12:07 -0500
 company: everyscape
 projectimage: /assets/projects/2017-everyscape-relaunch.png
+summary: The beginning of 2017 saw the culmination of years of work, with a launch of a free, direct to consumer iOS app that allowed capture, edit, and data enhancement of 360° content, as well as the ability to experience that content together with other people in real time.
 ---
 The beginning of 2017 saw the culmination of years of work, with a launch of a free, direct to consumer iOS app that allowed capture, edit, and data enhancement of 360° content, as well as the ability to experience that content together with other people in real time. A full re-branding of the entire company accompanied this product launch.
 

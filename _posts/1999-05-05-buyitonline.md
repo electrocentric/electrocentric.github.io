@@ -4,6 +4,7 @@ title: BuyItOnline.com (1999)
 date: 1999-05-05 12:30:09 -0500
 company: stumpworld
 projectimage: /assets/projects/1999-buyitonline.png
+summary: The BuyItOnline brand was relaunched as an online shopping mall that aggregated many of the storefronts created with the OnlineMerchant software.
 ---
 BuyItOnline.com (the company, and the domain name) was purchased by Stumpworld Systems in 1998, and in 1999 the brand was relaunched as an online shopping mall that aggregated many of the storefronts created with the OnlineMerchant software.
 

@@ -4,6 +4,7 @@ title: Aerosmith Website (1997)
 date: 1997-12-11 04:27:01 -0500
 company: stumpworld
 projectimage: /assets/projects/1998-aerosmith.png
+summary: The first dedicated Internet presence for the world-famous rock band Aerosmith stretched the limits of browser technology at the time.
 ---
 The first dedicated Internet presence for the world-famous rock band Aerosmith stretched the limits of browser technology at the time.
 

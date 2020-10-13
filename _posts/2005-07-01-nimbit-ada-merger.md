@@ -4,6 +4,7 @@ title: Corporate Merger and Services Integration (2005)
 date: 2005-07-01 12:39:04 -0500
 company: nimbit
 projectimage: /assets/projects/2005-nimbit.png
+summary: In 2004, Nimbit merged with Artist Development Associates, and the process of combining services, technologies (and offices) began. When the integration was completed, in the summer of 2005, the combined services of the two former partners became available in a seamless unified platform.
 ---
 In 2004, Nimbit merged with Artist Development Associates, and the process of combining services, technologies (and offices) began. When the integration was completed, in the summer of 2005, the combined services of the two former partners became available in a seamless unified platform.
 

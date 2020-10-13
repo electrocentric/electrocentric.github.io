@@ -4,6 +4,8 @@
 
 layout: default
 title: Projects
+socialimage: /images/social-1220x628.png
+summary: This is a portfolio of notable projects I've worked on throughout my career.
 ---
 <div class="project-list">
 {% for post in site.posts %}

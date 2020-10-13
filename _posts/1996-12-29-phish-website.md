@@ -4,6 +4,7 @@ title: Phish Website (1996)
 date: 1996-12-29 23:17:11 -0500
 company: stumpworld
 projectimage: /assets/projects/1998-phish.png
+summary: The first Internet presence for the venerable jam band, Phish. In addition to the marketing and tour information aspects, this site also launched with its own online store, which was very innovative at that time.
 ---
 The first Internet presence for the venerable jam band, Phish. In addition to the marketing and tour information aspects, this site also launched with its own online store, which was very innovative at that time.
 

@@ -4,6 +4,7 @@ title: The Rolling Stones Store (1997)
 date: 1997-12-22 09:42:42 -0500
 company: stumpworld
 projectimage: /assets/projects/1997-rollingstones.png
+summary: Stones Bazaar was the first dedicated e-commerce site for The Rolling Stones, and was created to support the Bridges to Babylon World Tour.
 ---
 Stones Bazaar was the first dedicated e-commerce site for The Rolling Stones, and was created to support the Bridges to Babylon World Tour.
 
