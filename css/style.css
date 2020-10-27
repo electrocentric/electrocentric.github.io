@@ -71,7 +71,7 @@ article.project-thumbnail {
 	flex: 0 0 auto;
 	width: 20em;
 	height: 17em;
-	border: 0.1em solid #999;
+	border: 1px solid #999;
 	border-radius: 1em;
 	margin-bottom: 4em;
 	margin-left: 2em;
@@ -133,7 +133,7 @@ article.project-thumbnail div.project-image img.project-company {
 	flex: 0 1 auto;
 	width: 100%;
 	border: none;
-	border-top: 0.1em solid #999;
+	border-top: 1px solid #999;
 	border-radius: unset;
 }
 
@@ -163,7 +163,7 @@ section.content a:hover {
 figure img {
 	display: block;
 	border-radius: 1em;
-	border: 0.1em solid #999;
+	border: 1px solid #999;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -199,7 +199,7 @@ figure.right {
 img.project-company {
 	display: block;
 	border-radius: 1em;
-	border: 0.1em solid #999;
+	border: 1px solid #999;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -221,7 +221,7 @@ img.project-company {
 	background-position: center;
 	grid-auto-flow: dense;
 	border-radius: 1em;
-	border: 0.1em solid #999;
+	border: 1px solid #999;
 	overflow: hidden;
 	color: #000;
 }
