@@ -1,15 +1,15 @@
 ---
 layout: project
-title: place.net (2020)
+title: Place.Net (2020)
 date: 2020-10-01 21:04:56 -0500
 company: smartersystems
 projectimage: /assets/projects/2020-place-net.png
 summary: This new product leverages the platform flexibility that had been built into SmarterListings, and extends it with CRE industry specific workflows on the broker and property owner side, and a video conferencing implementation interwoven with the shared content browsing experience.
 ---
-The intellectual property developed as Smarter Listings was rolled out into a new company, called Smarter Systems, Inc. in September of 2019. Approximately a year later, we launched general availability on place.net, which is a solution that has been refined to target the commercial real estate market.
+The intellectual property developed as Smarter Listings was rolled out into a new company, called Smarter Systems, Inc. in September of 2019. Approximately a year later, we launched general availability on Place.Net, which is a solution that has been refined to target the commercial real estate market.
 
 This new product leverages the platform flexibility that had been built into SmarterListings, and extends it with CRE industry specific workflows on the broker and property owner side, and a video conferencing implementation interwoven with the shared content browsing experience.
 
 My role throughout this evolution has been to essentially keep innovating and refining as we continue to push past the boundaries of what has existed in the industry before.
 
-{% include image.html url=page.projectimage description="SmarterListings.com Homepage" caption="SmarterListings.com Homepage" class="inline-center" %}
+{% include image.html url=page.projectimage description="Place.Net Homepage" caption="Place.Net Homepage" class="inline-center" %}
